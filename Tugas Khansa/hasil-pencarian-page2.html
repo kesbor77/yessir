@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hasil Pencarian - Khigin Travel</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      background-image: url('https://www.transparenttextures.com/patterns/asfalt-light.png');
+      background-color: #34495e; /* Tekstur biru tua */
+      font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif; /* Font Palatino Linotype */
+    }
+    header, footer {
+      background-color: #34495e; /* Warna biru tua */
+    }
+    header h1, footer p, h2 {
+      font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    }
+    h2 {
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header class="text-white py-6">
+    <div class="container mx-auto flex justify-between items-center">
+      <img src="logo.jpeg" alt="Khigin Travel Logo" class="h-12">
+      <h1 class="text-2xl font-bold">Khigin Travel</h1>
+      <nav>
+        <ul class="flex space-x-6">
+          <li><a href="index.html" class="hover:underline">Home</a></li>
+          <li><a href="#" class="hover:underline">About</a></li>
+          <li><a href="#" class="hover:underline">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hasil Pencarian -->
+  <section class="py-10">
+    <div class="container mx-auto">
+      <h2 class="text-2xl font-bold text-gray-200 mb-6">Hasil Pencarian: Hotel di Depok</h2>
+
+      <!-- Daftar Hotel -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <!-- Hotel 3 -->
+                <div class="bg-white shadow-lg rounded-lg p-4">
+                    <img 
+                      src="3.jpeg" 
+                      alt="Hotel C" 
+                      class="w-full h-40 object-cover rounded-md mb-4"
+                    >
+                    <h3 class="text-xl font-semibold text-gray-800">Hotel C</h3>
+                    <p class="text-gray-600">★★★★★</p>
+                    <p class="text-blue-600 font-bold">Rp. 1,000,000 / malam</p>
+                  </div>
+          
+                  <!-- Hotel 4 -->
+                  <div class="bg-white shadow-lg rounded-lg p-4">
+                    <img 
+                      src="4.jpeg" 
+                      alt="Hotel D" 
+                      class="w-full h-40 object-cover rounded-md mb-4"
+                    >
+                    <h3 class="text-xl font-semibold text-gray-800">Hotel D</h3>
+                    <p class="text-gray-600">★★★★★</p>
+                    <p class="text-blue-600 font-bold">Rp. 800,000 / malam</p>
+                  </div>
+      
+
+        <!-- Navigasi Halaman -->
+          <div class="mt-8 flex justify-center space-x-4">
+         <a 
+          href="hasil-pencarian.html" 
+         class="bg-gray-400 text-white px-4 py-2 rounded-md hover:bg-gray-700">
+         Sebelumnya
+         </a>
+          <a 
+         href="hasil-pencarian-page2.html" 
+         class="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700">
+         Selanjutnya
+      </a>
+  </div>
+</div>
+</section>
+      
+
+  <!-- Footer -->
+  <footer class="text-white py-6 mt-10">
+    <div class="container mx-auto text-center">
+      <p>&copy; 2024 Khigin Travel. Produksi Media UI 2024.</p>
+    </div>
+  </footer>
+</body>
+</html>
